@@ -1,0 +1,32 @@
+/* styles.css */
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink-class {
+  animation: blink 1s infinite; /* Change the animation duration as needed */
+}
+
+.green-border {
+  border: 5px solid green;
+}  
+
+/* Add this to your CSS styles */
+.yellow-border {
+  border: 5px solid yellow;
+}
+
+.red-border {
+  border: 5px solid red;
+}
+
+/* .blue-border {
+  border: 3px solid blue;
+} */
+
+.blue-border {
+  border: 5px solid #40a2db;
+}
